@@ -1,0 +1,206 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.attendence-components {
+    display: flex;
+    padding: 0px;
+}
+
+/* start of attendence aside-sides */
+/* start of main Side */
+.attendence-left {
+    width: 25%;
+    background-color: #5648B8;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head-one {
+    color: white;
+    font-size: 22px;
+}
+
+.imgs-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.dropdown-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dropdown-main>a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-m {
+    width: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* end of main Side */
+/* start of page Side */
+.page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-head-one {
+    color: white;
+    font-size: 22px;
+}
+
+.imgs-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.dropdown-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 45px;
+}
+
+.dropdown-page>a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-m {
+    width: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* end of page Side */
+/* end of attendence aside-sides */
+/* start of attendence-main-body */
+.attendence-main-body {
+    width: 75%;
+    background-color: #544C8E;
+}
+
+.atendence-body-header {
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.form-bg {
+    background-color: white;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: -2px -2px 6px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    background-color: #544C8E;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.emp-atte-head {
+    color: white;
+}
+
+.timesheet-head {
+    color: white;
+}
+
+.option-select {
+    color: black;
+    font-weight: bold;
+}
+
+.btn-submit {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+/* end of attendence-main-body */
+
+@media only screen and (max-width: 900px) {
+
+
+    .dropdown-main {
+        display: none;
+    }
+
+    .dropdown-page {
+        display: none;
+    }
+
+    .form-bg {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .form {
+        width: 90%;
+        box-shadow: -2px -2px 6px black;
+        
+    }
+
+    .emp-atte-head {
+        font-size: 20px;
+    }
+
+    .timesheet-head {
+        font-size: 15px;
+    }
+
+    .text-light {
+        font-size: 14px;
+    }
+
+    .form-select {
+        font-size: 12px;
+    }
+
+    .btn-submit {
+        font-size: 12px;
+
+    }
+    .atendence-body-header {
+        background-image: none;
+        box-shadow: 2px 0px 6px black;
+        padding: 10px;
+    }
+
+    
+}

@@ -1,0 +1,132 @@
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 0px;
+  background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+
+
+/* START OF right SIDE */
+.right-side {  
+padding: 0px;
+ width: 50%;
+ 
+}
+.form-login{
+  box-shadow: -2px -2px 4px 6px black;
+}
+
+/* END OF right SIDE */
+
+/* START OF LOGIN-HEADER */
+.login-header {
+   
+   padding: 10px;
+   color: aliceblue;
+   font-weight: bold;
+   margin: 0px;
+   background-image: url("/images/bg.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* END OF LOGIN-HEADER */
+.form-login{
+    background-color: #544C8E;
+    
+}
+.form-h4{
+    color: aliceblue;
+}
+
+.input-form {
+    
+    display: flex;
+    width: 50%;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    border: transparent;
+    margin: 0 auto;
+    
+  }
+  
+  .icon {
+    padding: 15px 20px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: rgb(236, 236, 236);
+    color: silver;
+    min-width: 50px;
+    text-align: center;
+    border: transparent;
+  }
+  
+  .input-field {
+    background: whitesmoke;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 100%;
+    padding: 15px 20px;
+    border: transparent;
+   
+    
+  }
+  .input-field::placeholder{
+    color: silver;
+  }
+
+  .login-btn {
+    background: whitesmoke;
+    border-radius: 7px;
+    color: black;
+    font-weight: bold;
+    border: transparent;
+    padding: 15px 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  .login-btn:hover {
+    opacity: 1;
+  }
+
+  .sign-up-anchor{
+    color: pink;
+    text-decoration: none;
+  }
+  .para{
+    color: aliceblue;
+  }
+
+   /* media queries */
+   @media only screen and (max-width: 768px){
+
+    .right-side {
+      padding: 30px;
+      width: 100%;
+  }
+
+  .input-form{
+
+    width: 100%;
+    padding: 10px;
+  }
+  
+    
+   }
+  
+  

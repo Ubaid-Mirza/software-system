@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.admin{
+    
+    display: flex;
+    padding: 0px;
+}
+
+.admin-components {
+    display: flex;
+    padding: 0px;
+}
+
+/* start of slack aside-sides */
+/* start of main Side */
+.admin-left {
+    width: 25%;
+    background-color: #5648B8;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head-one {
+    color: white;
+    font-size: 22px;
+}
+
+.imgs-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.dropdown-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dropdown-main>a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-m {
+    width: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* end of main Side */
+/* start of page Side */
+.page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-head-one {
+    color: white;
+    font-size: 22px;
+}
+
+.imgs-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.dropdown-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 45px;
+}
+
+.dropdown-page>a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-m {
+    width: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* end of page Side */
+/* end of slack aside-sides */
+/* START OF MAIN-BODY */
+.main-body{
+    width: 75%;
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list{
+
+    display: flex;
+}
+.projects{
+
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: transparent;
+}
+
+.clients{
+
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: transparent;
+}
+
+.tasks{
+
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: transparent;
+}
+
+.employee{
+
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: transparent;
+}
+.stat{
+
+    border: 2px solid silver;
+    padding: 20px 20px 40px 20px;
+    
+    background-color: white;
+    border: transparent;
+}
+
+/* start of overview */
+.total-con{
+    background-color: rgb(238, 234, 234);
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+
+.overdue-con{
+    background-color: rgb(238, 234, 234);
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+
+.five{
+
+    background-color: rgb(184, 111, 111);
+    color: red;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.pend{
+
+    background-color: rgb(184, 111, 111);
+    color: red;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.pending-con{
+
+    border: 2px solid silver;
+    padding: 15px 15px 0px 15px;
+    border-radius: 5px;
+}
+
+.appro{
+
+    background-color: rgb(112, 160, 118);
+    color: green;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+.approved-con{
+
+    border: 2px solid silver;
+    padding: 15px 15px 0px 15px;
+    border-radius: 5px;
+}
+.load-btn{
+
+   display: block;
+   margin: 0 auto;
+   border-radius: 5px;
+   font-size: 20px;
+   border: transparent;
+   border: 2px solid silver;
+   padding: 10px;
+   font-weight: bold;
+}
+/* END OF MAIN-BODY */
+@media only screen and (max-width: 900px) {
+
+
+    .dropdown-main {
+        display: none;
+    }
+
+    .dropdown-page {
+        display: none;
+    }
+}

@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.slack-components {
+    display: flex;
+    padding: 0px;
+}
+
+/* start of slack aside-sides */
+/* start of main Side */
+.slack-left {
+    width: 25%;
+    height: 100vh;
+    background-color: #5648B8;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head-one {
+    color: white;
+    font-size: 22px;
+}
+
+.imgs-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.dropdown-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dropdown-main>a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-m {
+    width: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* end of main Side */
+/* start of page Side */
+.page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-head-one {
+    color: white;
+    font-size: 22px;
+}
+
+.imgs-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.dropdown-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 45px;
+}
+
+.dropdown-page>a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-m {
+    width: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* end of page Side */
+/* end of slack aside-sides */
+/* start of slack-main-body */
+.slack-main-body {
+    width: 75%;
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end of slack-main-body */
+
+@media only screen and (max-width: 900px) {
+
+
+    .dropdown-main {
+        display: none;
+    }
+
+    .dropdown-page {
+        display: none;
+    }
+}

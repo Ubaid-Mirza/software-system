@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.leave-components {
+    display: flex;
+    padding: 0px;
+}
+
+/* start of leave aside-sides */
+/* start of main Side */
+.profile-left {
+    width: 25%;
+    background-color: #5648B8;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.main-head-one {
+    color: white;
+    font-size: 22px;
+}
+.imgs-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.dropdown-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.dropdown-main>a {
+    color: white;
+    font-weight: bold;
+}
+.img-m {
+    width: 20px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+/* end of main Side */
+/* start of page Side */
+.page {
+    display: flex;
+    justify-content: space-around;
+}
+.page-head-one {
+    color: white;
+    font-size: 22px;
+}
+.imgs-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.dropdown-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 45px;
+}
+.dropdown-page>a {
+    color: white;
+    font-weight: bold;
+}
+.img-m {
+    width: 20px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+/* end of page Side */
+/* end of leave aside-sides */
+/* start of leave-main-body */
+.profile-main-body {
+    width: 75%;
+    background-color: #544C8E;
+   
+}
+.profile-main-header{
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card{
+    box-shadow: -2px -2px 6px black;
+}
+/* end of leave-main-body */
+
+@media only screen and (max-width: 900px) {
+
+
+    .dropdown-main {
+        display: none;
+    }
+
+    .dropdown-page {
+        display: none;
+    }
+
+    .profile-main-header {
+        background-image: none;
+        box-shadow: 2px 0px 6px black;
+       
+    }
+
+    
+}
