@@ -7,6 +7,10 @@ body{
     background-image: url("/images/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 320px;
+}
+.main{
+    padding: 0px;
 }
 /* START OF NAV */
 .nav-container{
@@ -38,9 +42,24 @@ body{
     padding: 10px;
     border: transparent;
 }
+.nav-img{
+    cursor: pointer;
+}
 /* END OF NAV */
+/* start of none nav */
+.navbar{
+   
+    display: none;
+}
+.navbar-toggler-icon{
+    background-color: aliceblue;
+}
+.link{
+    color: aliceblue !important;
+}
+/* end of none nav */
 /* START OF BODY */
-.body{
+.main-body{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -48,10 +67,11 @@ body{
     align-content: center;
 }
 .body-left-side{
-    width: 50%;
+    width: 60%;
+    
 }
 .body-right-side{
-    width: 50%;
+    width: 40%;
 }
 .head-one{
     color: white;
@@ -63,7 +83,8 @@ body{
     border: transparent;
     padding: 5px 20px;
     border-radius: 20px;
-    margin: 50px 50px 0px 0px;
+    width: 30%;
+   
 }
 .button-two{
     background-color: rgb(21, 3, 36);
@@ -71,10 +92,15 @@ body{
     border: 2px solid rgb(247, 21, 96);
     padding: 5px 20px;
     border-radius: 20px;
-    margin: 50px 0px 0px 0px;
+    width: 30%;
+   
+}
+.img-one{
+   margin: 20px;
+
 }
 .main-img{
-    width: 80%;
+    width: 100%;
 }
 /* END OF BODY */
 /* START OF BODY-FOOTER */
@@ -89,7 +115,8 @@ body{
     border: 2px solid rgb(247, 21, 96);
     padding: 5px 20px;
     border-radius: 20px;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 20px 0px;
+   
 }
 /* END OF BODY-FOOTER */
 /* START OF SERVICES */
@@ -97,6 +124,7 @@ body{
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .service-heading{
     color: white;
@@ -183,4 +211,39 @@ body{
 }
 .A-I-img:hover{
     transform: scale(1.1);
+}
+/* End of services */
+
+/* Start of responsive sides */
+@media only screen and (max-width: 850px){
+    .navbar{
+        display: block;
+       
+    }
+    .nav-container{
+        display: none;
+    }
+    .img-one{
+        display: none;
+    }
+    .body-left-side{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .head-one{
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    .button-one{
+        width: 60%;
+    }
+    .button-two{
+        width: 60%;
+    }
+    .body-left-side{
+        margin: 30px 20px 0px 0px;
+    }
 }

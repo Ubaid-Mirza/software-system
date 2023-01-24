@@ -107,6 +107,7 @@ padding: 0px;
   .sign-up-anchor{
     color: pink;
     text-decoration: none;
+    cursor: pointer;
   }
   .para{
     color: aliceblue;
