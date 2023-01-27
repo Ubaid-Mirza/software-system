@@ -83,7 +83,7 @@ padding: 0px;
     color: silver;
   }
 
-  .signup-btn {
+  .submit {
     background: whitesmoke;
     border-radius: 7px;
     color: black;
@@ -98,7 +98,7 @@ padding: 0px;
     
   }
   
-  .signup-btn:hover {
+  .submit:hover {
     opacity: 1;
   }
 
