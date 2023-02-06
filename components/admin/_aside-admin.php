@@ -22,15 +22,15 @@
                         Slack communication
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                        <li><a class="dropdown-item" href="#">Conversation</a></li>
+                        <li><a class="dropdown-item" onclick="location.href='slack.php'">Conversation</a></li>
                     </ul>
                     <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink3"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Employees
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
-                        <li><a class="dropdown-item" href="#">Attendance</a></li>
-                        <li><a class="dropdown-item" href="#">Leave</a></li>
+                        <li><a class="dropdown-item" onclick="location.href='attendance.php'">Attendance</a></li>
+                        <li><a class="dropdown-item" onclick="location.href='leave.php'">Leave</a></li>
                     </ul>
                     <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink4"
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,7 +59,7 @@
                         Profile
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink5">
-                        <li><a class="dropdown-item" href="#">Employee Profile</a></li>
+                        <li><a class="dropdown-item" onclick="location.href='profile.php'">Employee Profile</a></li>
                         <li><a class="dropdown-item" href="#">client Profile</a></li>
                     </ul>
                     <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink6"
@@ -67,8 +67,8 @@
                         Authentication
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink6">
-                        <li><a class="dropdown-item" href="#">Login</a></li>
-                        <li><a class="dropdown-item" href="#">Register</a></li>
+                        <li><a class="dropdown-item" onclick="location.href='login.php'">Login</a></li>
+                        <li><a class="dropdown-item" onclick="location.href='signup.php'">Register</a></li>
                         <li><a class="dropdown-item" href="#">Forget Password</a></li>
                     </ul>
                 </div>

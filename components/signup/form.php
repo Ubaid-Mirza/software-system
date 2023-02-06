@@ -18,7 +18,7 @@
 
                         <div class="input-form mt-3">
                             <i class="fa fa-envelope icon"></i>
-                            <input class="input-field" type="email" placeholder="username" id="use" name="email">
+                            <input class="input-field" type="email" placeholder="Enter youe Email" id="use" name="email">
                         </div>
 
                         <div class="input-form mt-3">
@@ -34,7 +34,7 @@
 
                     
                     
-                    <p class="text-center para py-3">Already have an account ? <a class="log-in-anchor" onclick="location.href='login.html'">Login</a></p>
+                    <p class="text-center para py-3">Already have an account ? <a class="log-in-anchor" onclick="location.href='login.php'">Login</a></p>
 
                 </form>
             
